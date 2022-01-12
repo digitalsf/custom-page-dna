@@ -32,5 +32,5 @@ window.addEventListener('load', function () {
     })
     
     myObserver.observe(container)
-    myObserver.observe(body)
+    myObserver.observe(document.body)
 })
