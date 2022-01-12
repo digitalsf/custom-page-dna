@@ -1,6 +1,7 @@
 let myObserver = new ResizeObserver(entries => {
     entries.forEach(entry => {
-        entry.style.height = 'auto'
+        //console.log(entry)
+        container.style.height = 'auto'
     })
 
     let forms = document.getElementsByTagName('form')
