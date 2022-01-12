@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
     const container = document.querySelector('.main')
-
+    const body = document.getElementsByTagName('body')
     let myObserver = new ResizeObserver(entries => {
         entries.forEach(entry => {
             //console.log(entry)
@@ -31,5 +31,6 @@ window.addEventListener('load', function () {
         console.log('fired')
     })
     
-    myObserver.observe(container)    
+    myObserver.observe(container)
+    myObserver.observe(body)
 })
