@@ -1,7 +1,6 @@
 window.addEventListener('load', function () {
     
     const container = document.querySelector('#item_details_view')
-    const allItems = document.querySelector('#all_items_view')
 
     let myObserver = new ResizeObserver(entries => {
         entries.forEach(entry => {
@@ -25,11 +24,10 @@ window.addEventListener('load', function () {
             
             
             mainContainer.style.height = 'max-content'
-            console.log('fired')
+
         })
     })
     
-    //myObserver.observe(container)
     myObserver.observe(container)
 
 })
