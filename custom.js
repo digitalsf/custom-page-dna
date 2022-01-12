@@ -8,6 +8,11 @@ let myObserver = new ResizeObserver(entries => {
     for(form of forms) {
         form.style.height = 'auto'
     }
+
+    let divs = document.getElementsByTagName('div')
+    for(div of divs) {
+        div.style.height = 'auto'
+    }
 })
 
 const container = document.querySelector('.main')
