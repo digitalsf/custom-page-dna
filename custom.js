@@ -3,11 +3,12 @@ const forms = document.getElementsByTagName('form')
 
 function divResizeHeight() {
     console.log('Resize detected')
-    for(form of forms) {
-        form.style.height = 'auto'
-    }
     for(div of divs) {
         div.style.height = 'auto'
+    }
+
+    for(form of forms) {
+        form.style.height = 'auto'
     }
 
 }
