@@ -2,10 +2,13 @@ let myObserver = new ResizeObserver(entries => {
     entries.forEach(entry => {
         entry.style.height = 'auto'
     })
+
+    let forms = document.getElementsByTagName('form')
+    for(form of forms) {
+        form.style.height = 'auto'
+    }
 })
 
-const divs = document.querySelector('div')
-const forms = document.getElementsByTagName('form')
+const container = document.querySelector('.main')
 
-myObserver.observe(divs)
-myObserver.observe(forms)
+myObserver.observe(container)
