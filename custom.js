@@ -44,5 +44,5 @@ window.addEventListener('load', function () {
         });
     });
     
-    observer.observe(document.querySelector(".main"), { subtree: false, childList: true });
+    observer.observe(document.getElementsByTagName("form"), { subtree: false, childList: true });
 })
