@@ -1,3 +1,5 @@
+function divResizeHeight() {
+    console.log('Resize detected')
+}
 
-console.log("test")
-console.log("test2")
+new ResizeObserver(divResizeHeight).observe(div)
