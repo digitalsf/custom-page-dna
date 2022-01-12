@@ -1,6 +1,4 @@
 const container = document.querySelector('.main')
-const itemContainer = document.querySelector('#all_items_view')
-const itemContainerHeight = itemContainer.clientHeight
 
 let myObserver = new ResizeObserver(entries => {
     entries.forEach(entry => {
@@ -18,6 +16,9 @@ let myObserver = new ResizeObserver(entries => {
         div.style.height = 'auto'
     }
 
+    let itemContainer = document.querySelector('#all_items_view')
+    let itemContainerHeight = itemContainer.clientHeight
+    
     itemContainer.style.height = itemContainerHeight
 })
 
