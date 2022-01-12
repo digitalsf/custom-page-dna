@@ -2,4 +2,4 @@ function divResizeHeight() {
     console.log('Resize detected')
 }
 
-new ResizeObserver(divResizeHeight).observe(select-items)
+new ResizeObserver(divResizeHeight).observe(item_details)
