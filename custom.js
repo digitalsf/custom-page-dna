@@ -31,6 +31,18 @@ window.addEventListener('load', function () {
         console.log('fired')
     })
     
-    myObserver.observe(container)
+    //myObserver.observe(container)
     myObserver.observe(document.body)
+
+    const observer = new MutationObserver(function(mutations_list) {
+        mutations_list.forEach(function(mutation) {
+            mutation.addedNodes.forEach(function(added_node) {
+                    console.log(added_node)
+                    console.log('child has been added');
+                    observer.disconnect();
+            });
+        });
+    });
+    
+    observer.observe(document.querySelector(".main"), { subtree: false, childList: true });
 })
