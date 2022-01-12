@@ -19,8 +19,15 @@ window.addEventListener('load', function () {
     
         let itemContainer = document.querySelector('#all_items_view')
         let itemContainerHeight = itemContainer.clientHeight
-        document.querySelector('.main').style.height = `${itemContainerHeight}px`
-        console.log('All items height: ' + itemContainerHeight)
+        let mainContainer = document.querySelector('.main')
+        let itemDetails = document.getElementById('item_details_view')
+        let itemDetailsHeight = itemDetails.clientHeight
+        if(itemContainerHeight != 0) {
+            mainContainer.style.height = `${itemContainerHeight}px`
+        } else {
+            mainContainer.style.height = `${itemDetailsHeight}px`
+        }
+
         console.log('fired')
     })
     
