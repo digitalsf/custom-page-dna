@@ -19,8 +19,10 @@ window.addEventListener('load', function () {
     
         let itemContainer = document.querySelector('#all_items_view')
         let itemContainerHeight = itemContainer.clientHeight
-        
-        itemContainer.style.height = itemContainerHeight
+        let mainContainer = document.querySelector('.main')
+
+        mainContainer.style.height = itemContainerHeight
+        console.log('fired')
     })
     
     myObserver.observe(container)    
