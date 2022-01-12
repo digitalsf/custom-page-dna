@@ -9,13 +9,14 @@ window.addEventListener('load', function () {
             let forms = document.getElementsByTagName('form')
 
             for(form of forms) {
-                form.style.height = 'auto'
+                form.style.height = 'max-content'
+                form.style.overflow = 'auto'
             }
         
             let divs = document.getElementsByTagName('div')
             
             for(div of divs) {
-                div.style.height = 'auto'
+                div.style.height = 'max-content'
             }
             
             let mainContainer = document.querySelector('.main')
@@ -23,12 +24,12 @@ window.addEventListener('load', function () {
             let itemDetails = document.getElementById('item_details_view').clientHeight
             
             
-            mainContainer.style.height = 'auto'
+            mainContainer.style.height = 'max-content'
             console.log('fired')
         })
     })
     
     //myObserver.observe(container)
     myObserver.observe(container)
-    myObserver.observe(allItems)
+
 })
