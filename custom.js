@@ -19,9 +19,7 @@ window.addEventListener('load', function () {
     
         let itemContainer = document.querySelector('#all_items_view')
         let itemContainerHeight = itemContainer.clientHeight
-        let mainContainer = document.querySelector('.main')
-        
-        mainContainer.style.height = itemContainerHeight
+        document.querySelector('.main').style.height = `${itemContainerHeight}px`
         console.log('All items height: ' + itemContainerHeight)
         console.log('fired')
     })
