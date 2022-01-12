@@ -2,7 +2,8 @@ const divs = document.getElementsByTagName('div')
 const forms = document.getElementsByTagName('form')
 
 function divResizeHeight() {
-    console.log('Resize detected')
+    setTimeout(function () {
+        console.log('Resize detected')
     for(div of divs) {
         div.style.height = 'auto'
     }
@@ -10,7 +11,7 @@ function divResizeHeight() {
     for(form of forms) {
         form.style.height = 'auto'
     }
-
+    }, 1000)
 }
 
 divResizeHeight()
