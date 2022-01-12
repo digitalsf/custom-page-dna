@@ -22,7 +22,8 @@ window.addEventListener('load', function () {
             let itemDetails = document.getElementById('item_details_view')
             let itemDetailsHeight = itemDetails.clientHeight
             if(itemContainerHeight != 0) {
-                mainContainer.style.height = `${itemContainerHeight}px`
+                //mainContainer.style.height = `${itemContainerHeight}px`
+                mainContainer.style.height = 'auto'
             } else {
                 mainContainer.style.height = `${itemDetailsHeight}px`
             }
