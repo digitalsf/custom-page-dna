@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
             let mainContainer = document.querySelector('.main')            
             
             mainContainer.style.height = 'max-content'
-
+            console.log('Observer fired')
         })
     })
     
