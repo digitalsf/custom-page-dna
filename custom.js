@@ -38,7 +38,7 @@ window.addEventListener('load', function () {
     }
     //discoLaserDanceRave();
 
-    if( $('.bundle_subitem_subgroupname').length ) {
-        $('.bundle_subitem_subgroupname').parent().before(`</tbody></table><table class="bundle_subgroup_table"><tbody>`);
-    }
+    //if( $('.bundle_subitem_subgroupname').length ) {
+        //$('.bundle_subitem_subgroupname').parent().before(`</tbody></table><table class="bundle_subgroup_table"><tbody>`);
+    //}
 })
