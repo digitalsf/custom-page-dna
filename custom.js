@@ -21,6 +21,11 @@ window.addEventListener('load', function () {
             let mainContainer = document.querySelector('.main')            
             
             mainContainer.style.height = 'max-content'
+            
+            if( $('.bundle_subitem_subgroupname').length ) {
+                $('.bundle_subitem_subgroupname').parent('tr').before('</tbody></table><table class="bundle_subgroup_table"><tbody>');
+            }
+            
             console.log('Observer fired')
         })
     })
