@@ -22,23 +22,9 @@ window.addEventListener('load', function () {
             
             mainContainer.style.height = 'max-content'
             
-            console.log('Observer fired')
         })
     })
     
     Observer.observe(container)
 
-    window.hue=0.0;
-    window.disco_speed=8.0; // 4.0 = 1 css-hsl() hue point per second
-    function discoLaserDanceRave () {
-        jQuery('body').css('background-color','hsl('+window.hue+',100%,50%)');
-        window.hue+=window.disco_speed/4;
-        if (window.hue>360) window.hue=window.hue-360;
-        setTimeout(discoLaserDanceRave,10);
-    }
-    //discoLaserDanceRave();
-
-    //if( $('.bundle_subitem_subgroupname').length ) {
-        //$('.bundle_subitem_subgroupname').parent().before(`</tbody></table><table class="bundle_subgroup_table"><tbody>`);
-    //}
 })
