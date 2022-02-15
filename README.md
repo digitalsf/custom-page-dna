@@ -20,7 +20,7 @@ HTML files are a backup and should be modified then applied to the site.
 Any files added are directly accessiable via the CDN without additional work. Simply change the file name to grab a new file. 
 
 ```css
-https://combinatronics.com/mtruitt/custom-page-dna/main/style.css
+https://combinatronics.com/digitalsf/custom-page-dna/main/style.css
 ```
 
 
