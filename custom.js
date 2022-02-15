@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     // Custom Product Start
     const container = document.querySelector('#item_details_view')
     
-    if (typeof(container) != 'undefined' && container != null)) {
+    if (typeof(container) != 'undefined' && container != null) {
     
         let Observer = new ResizeObserver(entries => {
             entries.forEach(entry => {
