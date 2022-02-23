@@ -30,7 +30,7 @@ window.addEventListener('load', function () {
 
         Observer.observe(container)
     }
-    // Custom Product End
+    // Custom Products End
     
      //$('.responsive_tabs-shell .before').appendTo('.header-links'); //move search to header bar
     $('#header_logo img').wrap( "<a href='/strategicfactory/' style='width:273px'></a>" ); //wrap header logo in link to index page
