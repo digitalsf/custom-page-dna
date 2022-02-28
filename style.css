@@ -1077,6 +1077,7 @@ div.previewcell .previewrow th {
         display: inline-block;
         float: left;
         padding-right: 3rem;
+        min-height: 450px;
     }
 
     .shipping #misc-comment-table, .shipping #shipaddr-info {
