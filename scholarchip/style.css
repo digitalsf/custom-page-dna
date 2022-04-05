@@ -163,7 +163,7 @@ h3 {
 }
 
 .h3 { 
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -199,7 +199,7 @@ h3 {
 /*buttons*/
 .btn, .button {
     border: 0;
-    border-radius: 0;
+    border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.625rem;
     line-height: 1.5;
@@ -236,10 +236,12 @@ h3 {
 }
 
 .error {
-    color: #198af9 !important;
     font-weight: bold;
 }
 
+.btn-landing {
+    font-weight: 700;
+}
 
 
 /*=========table styles==============*/
