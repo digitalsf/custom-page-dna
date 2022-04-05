@@ -1,5 +1,4 @@
 @import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*======================================
 *            style resets              *
@@ -36,8 +35,8 @@ body>.container {
 
 .pagetitle, .reorder .form-body th {
     background-color: transparent;
-    color: #00a8d5;
-    font-family: 'Bebas Neue', sans-serif;
+    color: #0069aa;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.375rem;
     font-weight: 400;
     letter-spacing: .08rem;
@@ -92,15 +91,15 @@ body>.container {
 *                colors                *
 ======================================*/
 .text-primary {
-    color: #00A8d5 !important;
+    color: #0069aa !important;
 }
 
 .text-secondary {
-    color: #fa8a3c !important;
+    color: #198af9 !important;
 }
 
 .text-tertiary {
-    color: #003650;
+    color: #1e73be;
 }
 
 .text-grey {
@@ -108,15 +107,15 @@ body>.container {
 }
 
 .bg-primary {
-    background-color: #00A8d5;
+    background-color: #0069aa;
 }
 
 .bg-secondary {
-    background-color: #fa8a3c;
+    background-color: #198af9;
 }
 
 .bg-tertiary {
-    background-color: #003650;
+    background-color: #1e73be;
 }
 
 .bg-grey {
@@ -143,14 +142,13 @@ body {
 
 h1, h2, h3, h4, h5 {
     color: #333;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: .08em;
     text-transform: uppercase;
 }
 
 h1 {
-    color: white;
-    font-size: 3.5rem;
+    font-size: 5.7rem;
 }
 
 h2 {
@@ -165,7 +163,7 @@ h3 {
 }
 
 .h2 {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.375rem;
     font-weight: bold;
 }
@@ -177,20 +175,11 @@ h3 {
 }
 
 .bg-image {
-    background-position: bottom !important;
+    background-position: center center !important;
     background-size: cover !important;
     position: relative;
 }
 
-.overlay {
-    background-color: #00a8d5;
-    display: block;
-    height: 100%;
-    width: 100%;
-    opacity: .58;
-    position: absolute;
-    top: 0;
-}
 
 .bg-image .container {
     position: relative;
@@ -199,50 +188,50 @@ h3 {
 .subtitle {
     font-style: italic;
     font-weight: bold;
-    color: #00a8d5;
+    color: #0069aa;
 }
 
 /*buttons*/
 .btn, .button {
     border: 0;
     border-radius: 0;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.625rem;
     line-height: 1.5;
     padding: .25rem 2rem;
     text-transform: uppercase;
     color: white !important;
-    background-color: #00A8d5;
-    border-color: #00A8d5;
+    background-color: #0069aa;
+    border-color: #0069aa;
 }
 
 .btn-secondary, #submit_lookup_orders, #submit_start_shopping, #submit_review_order, #submit_send_order {
-    background-color: #fa8a3c;
-    border-color: #fa8a3c;
+    background-color: #198af9;
+    border-color: #198af9;
 }
 
 .btn-tertiary {
-    background-color: #003650;
-    border-color: #003650;
+    background-color: #1e73be;
+    border-color: #1e73be;
 }
 
 .btn:hover, button:hover {
-    background-color: #fa8a3c;
-    border-color: #fa8a3c;
+    background-color: #198af9;
+    border-color: #198af9;
 }
 
 .btn-secondary:hover {
-    background-color: #003650;
-    border-color: #003650;
+    background-color: #1e73be;
+    border-color: #1e73be;
 }
 
 .btn-tertiary:hover, #submit_lookup_orders:hover, #submit_start_shopping:hover, #submit_review_order:hover, #submit_send_order:hover {
-    background-color: #00A8d5;
-    border-color: #00a8d5;
+    background-color: #0069aa;
+    border-color: #0069aa;
 }
 
 .error {
-    color: #fa8a3c !important;
+    color: #198af9 !important;
     font-weight: bold;
 }
 
@@ -271,7 +260,7 @@ h3 {
 
 /*Header row padding is different than cell padding*/
 .true-table th, .items-table th {
-    background-color: #003650;
+    background-color: #1e73be;
     color: #fff;
     font-weight: bold;
     padding: 2px 0 2px 30px;
@@ -326,7 +315,7 @@ h3 {
 ======================================*/
 
 #header-wrapper {
-    background-color: #003650;
+    background-color: #1e73be;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -372,7 +361,7 @@ h3 {
 }
 
 .header-links a:hover {
-    border-bottom-color: #fa8a3c;
+    border-bottom-color: #198af9;
 }
 
 #logout_userid {
@@ -384,7 +373,7 @@ h3 {
 }
 
 .cart_num_items {
-    background: #00a8d5;
+    background: #0069aa;
     border-radius: 50%;
     position: absolute;
     top: -20px;
@@ -408,14 +397,14 @@ h3 {
 ======================================*/
 
 .start-order-box {
-    background-color: #003650;
+    background-color: #1e73be;
     color: white;
     text-align: center;
     padding: 3rem;
 }
 
 .start-order-box div {
-    background-color: #003650 !important;
+    background-color: #1e73be !important;
     max-width: 620px;
     margin: auto;
 }
@@ -444,7 +433,7 @@ h3 {
 
 .start-order-box button {
     border-radius: 0;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.625rem;
     line-height: 1.5;
     padding: .25rem 2rem;
@@ -457,25 +446,25 @@ h3 {
 }
 
 .start-order-box #submit_start_order {
-    background-color: #fa8a3c;
-    border-color: #fa8a3c;
+    background-color: #198af9;
+    border-color: #198af9;
     margin-right: 2rem !important;
 }
 
 .start-order-box #submit_start_order:hover {
-    background-color: #00a8d5;
-    border-color: #00a8d5;
+    background-color: #0069aa;
+    border-color: #0069aa;
 }
 
 .start-order-box #submit_re_order {
-    background-color: #00a8d5;
-    border-color: #00a8d5;
+    background-color: #0069aa;
+    border-color: #0069aa;
 
 }
 
 .start-order-box #submit_re_order:hover {
-    background-color: #fa8a3c;
-    border-color: #fa8a3c;
+    background-color: #198af9;
+    border-color: #198af9;
 }
 
 #newscopy-wrapper {
@@ -528,8 +517,8 @@ h3 {
 
 /*Page Title*/
 .corp-header-text.pagetitle {
-    color: #00a8d5;
-    font-family: 'Bebas Neue', sans-serif;
+    color: #0069aa;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.375rem;
     font-weight: 400;
     letter-spacing: .08rem;
@@ -558,7 +547,7 @@ h3 {
 }
 
 .corp_divisions li {
-    color: #003650;
+    color: #1e73be;
     font-size: 1.55rem;
     line-height: 1.5;
     padding: .5rem 0;
@@ -650,7 +639,7 @@ h3 {
     /*change from button to link appearance*/
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #00A8D5;
+    border-bottom: 2px solid #0069aa;
     color: #333 !important;
     display: inline;
     font-family: 'Montserrat', sans-serif;
@@ -666,8 +655,8 @@ h3 {
 }
 
 #submit_new_person:hover {
-    color: #fa8a3c;
-    border-bottom-color: #fa8a3c;
+    color: #198af9;
+    border-bottom-color: #198af9;
 }
 
 .profile-selection {
@@ -839,7 +828,7 @@ select#changeto, input#search {
 }
 
 .responsive_tabs .opened:before, .responsive_tabs .closed:before {
-    color: #00A8D5 !important;
+    color: #0069aa !important;
     font-size: 1.25rem !important;
     margin-left: -20px !important;
 }
@@ -857,7 +846,7 @@ select#changeto, input#search {
 
 .responsive_tabs-shell #basket-list-title {
     color: #333;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: .08em;
     text-transform: uppercase;
     font-size: 1.625rem;
@@ -920,7 +909,7 @@ select#changeto, input#search {
 
 .multi_preview a:first-child img {
     /*Was hoping to identify "active" preview image, but will need to tap into onclick function (if possible)
-    /*border: 2px solid #00A8D5!important;*/
+    /*border: 2px solid #0069aa!important;*/
 }
 
 .multi_preview img {
@@ -933,14 +922,14 @@ select#changeto, input#search {
 }
 
 .discontinued {
-    color: #00a8d5;
+    color: #0069aa;
     display: block;
     margin-bottom: .5rem;
 }
 
 .discontinued::before {
     content: "DISCONTINUED";
-    color: #00a8d5;
+    color: #0069aa;
     font-weight: bold;
 }
 
@@ -951,7 +940,7 @@ select#changeto, input#search {
 
 .sale::after {
     content: " (ON SALE) ";
-    color: #fa8a3c;
+    color: #198af9;
 }
 
 .the_actual_qty_select {
@@ -973,11 +962,11 @@ select#changeto, input#search {
 ======================================*/
 
 .basket-view #submit_continue {
-    background-color: #fa8a3c;
+    background-color: #198af9;
 }
 
 .basket-view #submit_continue:hover {
-    background-color: #003650;
+    background-color: #1e73be;
 }
 
 .buttonsbar button+button {
@@ -1186,7 +1175,7 @@ td.shipping-cell {
 ======================================*/
 
 .site-footer {
-    background: #003650;
+    background: #1e73be;
     color: #fff;
     font-size: 14px;
 }
@@ -1219,7 +1208,7 @@ td.shipping-cell {
 }
 
 .font-headings {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .website-link {
@@ -1241,11 +1230,11 @@ td.shipping-cell {
 }
 
 #social-links .fa-stack-1x {
-    color: #003650;
+    color: #1e73be;
 }
 
 #social-links a:hover .fa-stack-2x {
-    color: #fa8a3c;
+    color: #198af9;
 }
 
 #social-links a:hover .fa-stack-1x {
@@ -1354,7 +1343,7 @@ td.shipping-cell {
 }
 
 td.bundle_subitem_subgroupname {
-    background: #003650 !important;
+    background: #1e73be !important;
     color: #fff !important;
     padding: 5px 10px;
     border-top: 80px solid white;
