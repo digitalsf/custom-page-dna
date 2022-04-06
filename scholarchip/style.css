@@ -874,6 +874,15 @@ table.top-button-container td {
     margin-left: 1rem;
 }
 
+#cc_expires_mo, #cc_expires_yr {
+    width: 50px;
+    min-width: 50px;
+    margin-right: 10px;
+}
+#cc_expires_yr {
+    margin-left: 10px;
+}
+
 
 /*========= product preview thumbnails on various checkout pages ==============*/
 
