@@ -174,8 +174,8 @@ h3 {
 }
 
 @media screen and (min-width: 991px) {
-    .page-header {
-        min-height: 636px;
+    .page-header .container {
+        min-height: 700px;
     }
 }
 
@@ -407,7 +407,7 @@ h3 {
     display:none;
 }
 #newscopy-wrapper {
-    margin: 1em auto !important;
+    margin: 0 !important;
 }
 
 
