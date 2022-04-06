@@ -1031,7 +1031,7 @@ td.shipping-cell {
 
 .billing .form-body td.label {
     text-align: right;
-    width: 250px;
+    width: 200px;
     min-width: 0;
     font-size: 1.25rem;
     font-weight: normal;
