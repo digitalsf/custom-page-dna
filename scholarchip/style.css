@@ -585,7 +585,7 @@ select#changeto, input#search {
     vertical-align: top;
 }
 
-.add-new-person #changeto, .add-new-person .profile-userlist-label {
+/*.add-new-person #changeto, .add-new-person .profile-userlist-label {
     display: none !important;
 }
 
@@ -603,7 +603,7 @@ select#changeto, input#search {
 
 .profile-container {
     display: none;
-}
+}*/
 
 .profile-container.profile-fields {
     display: block;
