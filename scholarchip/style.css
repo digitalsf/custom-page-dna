@@ -973,7 +973,6 @@ div.previewcell .previewrow th {
 
     .shipping #misc-comment-table, .shipping #shipaddr-info {
         display: inline-block;
-        float: right;
         width: auto;
     }
 
