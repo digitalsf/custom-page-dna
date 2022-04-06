@@ -538,21 +538,6 @@ h3 {
 *           My Profile page            *
 ======================================*/
 
-#submit_new_person, #submit_edit_profile, #submit_track_order {
-    /*change from button to link appearance*/
-    background: transparent;
-    border: 0;
-    border-bottom: 2px solid #0069aa;
-    color: #333 !important;
-    display: inline;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    font-weight: normal;
-    padding: 0;
-    margin: 0;
-    text-transform: none;
-}
-
 #submit_new_person {
     font-weight: bold;
 }
@@ -656,6 +641,10 @@ select#changeto, input#search {
 .profile .form-body td.input input[name^="ph"] {
     min-width: unset;
     margin-right: 5px;
+}
+
+table.top-button-container td {
+    width: 50%;
 }
 
 /*======================================
