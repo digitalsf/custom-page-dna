@@ -718,6 +718,7 @@ table.top-button-container td {
 #submit_catalog_search {
     padding: .5rem;
     font-size: 1.25rem;
+    border-radius:0;
 }
 
 .responsive_tabs-shell {
