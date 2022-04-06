@@ -1050,12 +1050,12 @@ td.shipping-cell {
     width: 130px;
 }
 
-#cc_expires_mo, #cc_expires_yr, #bill_state {
+#cc_expires_mo, #cc_exp_yr, #bill_state {
     width: 50px;
     min-width: 50px;
     margin-right: 10px;
 }
-#cc_expires_yr {
+#cc_exp_yr {
     margin-left: 10px;
 }
 #bill_city {
