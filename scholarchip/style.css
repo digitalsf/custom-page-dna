@@ -403,115 +403,13 @@ h3 {
 *       index start order box          *
 ======================================*/
 
-.start-order-box {
-    background-color: #1e73be;
-    color: white;
-    text-align: center;
-    padding: 3rem;
+.start-order-box, .logo-box {
+    display:none;
 }
-
-.start-order-box div {
-    background-color: #1e73be !important;
-    max-width: 620px;
-    margin: auto;
-}
-
-.start-order-box h2 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.875rem;
-    margin-bottom: 1rem;
-}
-
-.start-order-box .center {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.5rem;
-}
-
-.start-order-box .center a {
-    color: white;
-}
-
-.start-order-box .center form {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-}
-
-.start-order-box button {
-    border-radius: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.625rem;
-    line-height: 1.5;
-    padding: .25rem 2rem;
-    text-transform: uppercase;
-    color: white !important;
-}
-
-.start-order-box button .button_arrow_right_text, .start-order-box button .button_arrow_right {
-    display: none;
-}
-
-.start-order-box #submit_start_order {
-    background-color: #198af9;
-    border-color: #198af9;
-    margin-right: 2rem !important;
-}
-
-.start-order-box #submit_start_order:hover {
-    background-color: #0069aa;
-    border-color: #0069aa;
-}
-
-.start-order-box #submit_re_order {
-    background-color: #0069aa;
-    border-color: #0069aa;
-
-}
-
-.start-order-box #submit_re_order:hover {
-    background-color: #198af9;
-    border-color: #198af9;
-}
-
 #newscopy-wrapper {
     margin: 1em auto !important;
 }
 
-/*======================================
-*          index logo box              *
-======================================*/
-.logo-box {
-    background-color: #f5f6f9;
-    display: flex;
-    align-items: center;
-    padding: 2rem 0 2rem 2rem;
-}
-
-.logo-box>span {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.logo-box .img-fluid {
-    padding-right: 2rem;
-}
-
-@media screen and (max-width:1400px) {
-    .logo-box>span {
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    .logo-box div {
-        width: 50%;
-        text-align: center;
-        padding-right: 20px;
-        padding: 20px;
-    }
-}
 
 /*=============================================
 *     New Order Page - Division Screen        *
