@@ -1061,6 +1061,9 @@ td.shipping-cell {
 #bill_city {
     margin-right: 10px;
 }
+#bill_state {
+    text-transform: uppercase;
+}
 
 /*======================================
 *           lookup order               *
