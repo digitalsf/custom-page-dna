@@ -176,26 +176,26 @@ body > .container {
 *                colors                *
 ======================================*/
 .text-primary {
-    color: #00A6D3!important;
+    color: #0069aa!important;
 }
 .text-secondary {
-    color: #F48700!important;
+    color: #198af9!important;
 }
 .text-tertiary {
-    color: #003650;
+    color: #1e73be;
 }
 .text-grey {
     color: #4f4f4f;
 }
 
 .bg-primary {
-    background-color: #00A6D3;
+    background-color: #0069aa;
 }
 .bg-secondary {
-    background-color: #F48700;
+    background-color: #198af9;
 }
 .bg-tertiary {
-    background-color: #003650;
+    background-color: #1e73be;
 }
 .bg-grey {
     background-color: #4f4f4f;
@@ -238,15 +238,15 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 h2 {
     margin-bottom: .5rem;
 }
-h3 {
+h3, .h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.25rem!important;
     text-transform: none;
 }
 .h2 {
@@ -278,7 +278,7 @@ h3 {
 .subtitle {
     font-style: italic;
     font-weight: bold;
-    color: #00A6D3;
+    color: #0069aa;
 }
 
 /*buttons*/
@@ -291,32 +291,32 @@ h3 {
   padding: .25rem 2rem;
   text-transform: uppercase;
   color: white!important;
-    background-color: #00A6D3;
-    border-color: #00A6D3;
+    background-color: #0069aa;
+    border-color: #0069aa;
 }
 .btn-secondary, #submit_lookup_orders, #submit_start_shopping, #submit_review_order, #submit_send_order {
-    background-color: #F48700;
-    border-color:#F48700;
+    background-color: #198af9;
+    border-color:#198af9;
 }
 .btn-tertiary {
-    background-color: #003650;
-    border-color:#003650;
+    background-color: #1e73be;
+    border-color:#1e73be;
 }
 .btn:hover, button:hover {
-    background-color: #F48700;
-    border-color:#F48700;
+    background-color: #198af9;
+    border-color:#198af9;
 }
 .btn-secondary:hover {
-    background-color: #003650;
-    border-color:#003650;
+    background-color: #1e73be;
+    border-color:#1e73be;
 }
 .btn-tertiary:hover, #submit_lookup_orders:hover, #submit_start_shopping:hover, #submit_review_order:hover, #submit_send_order:hover   {
-    background-color: #00A6D3;
-    border-color: #00A6D3;
+    background-color: #0069aa;
+    border-color: #0069aa;
 }
 
 .error {
-    color: #F48700!important;
+    color: #198af9!important;
     font-weight: bold;
 }
 
@@ -344,7 +344,7 @@ table.items-table tbody tr:nth-child(even), table.true-table tbody tr:nth-child(
 
 /*Header row padding is different than cell padding*/
 .true-table th, .items-table th {
-    background-color: #003650;
+    background-color: #1e73be;
     color: #fff;
     font-weight: bold;
 }
@@ -370,7 +370,7 @@ table .label label {
 ======================================*/
 
 #header-wrapper{
-    background-color: #003650;
+    background-color: #1e73be;
     padding-left: 3rem;
     padding-right: 3rem;
     }
@@ -388,7 +388,7 @@ table .label label {
 }
     
 #mobile_link_box {
-    background-color: #00A6D3;
+    background-color: #0069aa;
 }   
 
 #mobile_link_closer, #mobile_link_closer:active, #mobile_link_closer:focus, #mobile_link_closer:hover, #mobile_link_box a:link, #mobile_link_box a:visited {
@@ -397,7 +397,9 @@ table .label label {
 }
 
 
-
+.page-header .lead.text-primary {
+    font-size: 1.5rem!important;
+}
 
 /*======================================
 *       index start order box          *
@@ -407,125 +409,10 @@ table .label label {
     border: 0;
 }
 
-.start-order-box {
-    background-color: #003650;
-    color: white;
-    text-align:center;
-    padding: 2rem;
+#newscopy-wrapper {
+    margin: 0!important;
 }
 
-.start-order-box div {
-    background-color: #003650!important;
-    max-width: 620px;
-    margin:auto;
-}
-
-.start-order-box h2 {
-    color: white;
-    font-family: 'Montseratt', sans-serif;
-    font-size: 1.875rem;
-    margin-bottom: 1rem;
-}
-
-.start-order-box .center {
-    margin-top: 1.5rem;
-}
-
-.start-order-box .button {
-    width: 100%;
-}
-
-@media screen and (min-width: 580px) {
-    .start-order-box .center {
-        display:flex;
-        justify-content: center;
-    }
-    .start-order-box .button {
-        width: auto;
-    }
-}
-
-.start-order-box .center a {
-    color: white;
-}
-
-.start-order-box .center form {
-    margin-left: 0!important;
-    margin-right: 0!important;
-}
-
-.start-order-box button {
-    border-radius: 0;
-    
-    font-size: 1.625rem;
-    line-height: 1.5;
-    padding: .25rem 1rem;
-    text-transform: uppercase;
-    color: white!important;
-  }
-
-.start-order-box button .button_arrow_right_text, .start-order-box button .button_arrow_right {
-    display:none;
-}
-
-  .start-order-box #submit_start_order {
-    background-color: #F48700;
-    border-color:#F48700;
-    margin-right: 2rem!important;
-  }
-
-  .start-order-box #submit_start_order:hover {
-    background-color: #00a8d5;
-    border-color:#00a8d5;
-  }
-
-  .start-order-box #submit_re_order {
-    background-color: #00a8d5;
-    border-color:#00a8d5;
-
-  }
-
-  .start-order-box #submit_re_order:hover {
-    background-color: #F48700;
-    border-color:#F48700;
-  }
-
-  #newscopy-wrapper {
-      margin:1em auto!important;
-  }
-
-/*======================================
-*          index logo box              *
-======================================*/
-.logo-box {
-    background-color: #f5f6f9;
-    display:flex;
-    align-items: center;
-    padding: 2rem 0 0 2rem;
-}
-
-.logo-box > span {
-    display:flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.logo-box > span div {
-    padding-bottom: 2rem;
-    max-width: 45%;
-}
-
-.logo-box .img-fluid {
-    padding-right: 2rem;
-}
-
-@media screen and (min-width: 680px) {
-    .logo-box > span div {
-        width: 25%;
-    }
-}
 
 /*=============================================
 *     New Order Page - Division Screen        *
@@ -573,7 +460,7 @@ table .label label {
 }
 
 .corp_divisions li {
-    color: #003650;
+    color: #1e73be;
     font-size: 1.55rem;
     line-height: 1.5;
     padding: .5rem 0;
@@ -713,7 +600,7 @@ table .label label {
 }
 
 .basket-view #submit_continue:hover {
-    background-color:#003650;
+    background-color:#1e73be;
 }
 
 
@@ -842,7 +729,7 @@ table .label label {
 }
 
 .site-footer {
-    background: #003650;
+    background: #1e73be;
     color: #fff;
     font-size: 14px;
 }
@@ -898,10 +785,10 @@ text-decoration: underline;
     color:white;
 }
 #social-links .fa-stack-1x {
-    color:#003650;
+    color:#1e73be;
 }
 #social-links a:hover .fa-stack-2x {
-    color:#F48700;
+    color:#198af9;
 }
 #social-links a:hover .fa-stack-1x {
     color:#fff;
