@@ -337,6 +337,9 @@ h3 {
     max-width: 350px;
     height: auto;
 }
+.header-links {
+    text-align:center;
+}
 @media screen and (min-width:1441px) {
     #header-links-container {
         position: absolute;
@@ -345,12 +348,16 @@ h3 {
         text-transform: uppercase;
         width: auto !important;
     }
+    .header {
+        width: auto;
+    }
+    .header-links {
+        text-align:right;
+    }
 }
 
 
-.header {
-    width: auto;
-}
+
 
 .header-links a, #logout_userid {
     border-bottom: 2px solid transparent;
