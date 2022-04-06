@@ -874,14 +874,7 @@ table.top-button-container td {
     margin-left: 1rem;
 }
 
-#cc_expires_mo, #cc_expires_yr {
-    width: 50px;
-    min-width: 50px;
-    margin-right: 10px;
-}
-#cc_expires_yr {
-    margin-left: 10px;
-}
+
 
 
 /*========= product preview thumbnails on various checkout pages ==============*/
@@ -1032,9 +1025,13 @@ td.shipping-cell {
     margin-right: 1rem !important;
 }
 
+.billing .form-body td.input input:not([type=radio]):not([type=checkbox]) {
+    min-width: 250px;
+}
+
 .billing .form-body td.label {
-    text-align: left;
-    width: 150px;
+    text-align: right;
+    width: 250px;
     min-width: 0;
     font-size: 1.25rem;
     font-weight: normal;
@@ -1053,6 +1050,17 @@ td.shipping-cell {
     width: 130px;
 }
 
+#cc_expires_mo, #cc_expires_yr, #bill_state {
+    width: 50px;
+    min-width: 50px;
+    margin-right: 10px;
+}
+#cc_expires_yr {
+    margin-left: 10px;
+}
+#bill_city {
+    margin-right: 10px;
+}
 
 /*======================================
 *           lookup order               *
