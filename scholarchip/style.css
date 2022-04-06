@@ -39,7 +39,6 @@ body>.container {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.375rem;
     font-weight: 400;
-    letter-spacing: .08rem;
     line-height: 1.2;
     margin-bottom: 0;
     text-align: center;
@@ -174,7 +173,7 @@ h3 {
 }
 
 @media screen and (min-width: 991px) {
-    .page-header .container {
+    .page-header  {
         min-height: 700px;
     }
 }
@@ -197,11 +196,11 @@ h3 {
 }
 
 /*buttons*/
-.btn, .button {
+.btn:not(#submit_catalog_search), .button {
     border: 0;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
     line-height: 1.5;
     padding: .25rem 2rem;
     text-transform: uppercase;
@@ -241,6 +240,7 @@ h3 {
 
 .btn-landing {
     font-weight: 700;
+    font-size: 1.625rem;
 }
 
 
@@ -426,7 +426,6 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.375rem;
     font-weight: 400;
-    letter-spacing: .08rem;
     line-height: 1.2;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -744,7 +743,7 @@ select#changeto, input#search {
 
 /*Grey Order Summary "Your Order" Box below the categories in sidebar*/
 .responsive_tabs-shell .after {
-    background-color: #e3f5fa;
+    background-color: #f8fbff;
     padding: 1rem !important;
     margin-left: -2rem !important;
 }
@@ -752,9 +751,8 @@ select#changeto, input#search {
 .responsive_tabs-shell #basket-list-title {
     color: #333;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: .08em;
     text-transform: uppercase;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
 }
 
 .basket-list-item {
@@ -789,7 +787,7 @@ select#changeto, input#search {
     min-height: 252px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
 
 .detail_image_wrapper img, .image-container img {
@@ -1117,9 +1115,8 @@ td.shipping-cell {
 }
 
 .website-link {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 400;
-    letter-spacing: .04em;
 }
 
 #social-links ul .list-inline-item {
@@ -1254,7 +1251,6 @@ td.bundle_subitem_subgroupname {
     border-top: 80px solid white;
     border-bottom: 40px solid white;
     text-transform: uppercase;
-    letter-spacing: .05em;
     font-size: 16px;
 }
 
