@@ -33,7 +33,7 @@ window.addEventListener('load', function () {
     // Custom Products End
     
      //$('.responsive_tabs-shell .before').appendTo('.header-links'); //move search to header bar
-    $('#header_logo img').wrap( "<a href='/strategicfactory/' style='width:273px'></a>" ); //wrap header logo in link to index page
+    $('#header_logo img').wrap( "<a href='/scholarchip/' style='width:273px'></a>" ); //wrap header logo in link to index page
     $('.responsive_tabs dfn a').prop('title', ''); //remove tooltip that displays all of the custom code
 
     if ($(window).width() > 1200) { //only do on desktop view
