@@ -1384,3 +1384,9 @@ td.bundle_subitem_subgroupname {
 .responsive-onhand:has(> table.multisize-table) {
     display: none;
 }
+
+confirm_overlay {
+    left: 0 !important;
+    top: 0 !important;
+    margin: 0px !important;
+}
