@@ -1386,7 +1386,7 @@ td.bundle_subitem_subgroupname {
 }
 
 /* added 10-20-2023 Rob Carberry */
-confirm_overlay {
+#confirm_overlay {
     left: 0 !important;
     top: 0 !important;
     margin: 0px !important;
